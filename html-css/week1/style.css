@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.stats {
+  width: 33.33%;
+  padding: 20px;
+  background: rgba(201, 214, 255, 0.25);
+}
+
+.avatar {
+  display: block;
+  max-width: 100%;
+  border-radius: 100%;
+  border: 10px solid black;
+}
+
+.details {
+  width: 66.66%;
+  padding: 20px;
+  background: rgba(226, 226, 226, 0.25);
+}
+
+.sub-section {
+  margin-bottom: 60px;
+}
+.sub-section:last-child {
+  margin-bottom: 0;
+}
+
+/* Col-list styles */
+.col-list {
+  list-style: none;
+  padding: 0;
+}
+
+.col-list__item {
+  display: flex;
+}
+
+.col-list__year {
+  margin-right: 20px;
+}
+
+.col-list__detail {
+  color: #868686;
+}
